@@ -92,7 +92,7 @@ public class VEDArbin<E> {
       return false;
     }
 
-    if (val == valor) {
+    if (val.equals(valor)) {
       return true;
     }
 
